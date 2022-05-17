@@ -19,6 +19,10 @@
         font-size: 2.2rem;
         display: block;
         text-align: center;
+    
+        &:hover{
+        color: $verde;
+        }
 
         @include tablet {
             margin-right:2rem;
